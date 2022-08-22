@@ -45,16 +45,18 @@ body {
     margin-bottom: 0;
 }
 
-h1 {
-  font-size: 24px;
+.title {
+  font-size: 28px;
+  font-weight: 700;
   color: var(--primary1);
+  padding-bottom: 15px;
 }
 
-h3 {
+.sub-title {
   color: var(--primary2);
 }
 
-.top p {
+.text {
   color: var(--neutral2);
   line-height: 1.8;
 }
@@ -71,8 +73,8 @@ h3 {
     padding: 45px 40px 40px;
 }
 
-h2 {
-  font-size: 18px;
+h3 {
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
 }
